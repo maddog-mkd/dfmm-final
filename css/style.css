@@ -1,0 +1,55 @@
+:root {
+  --white: #fff;
+  --black: #111;
+
+  --special: yellow;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url("/font/Poppins-Regular.ttf");
+}
+
+body {
+  font-family: "Poppins-Regular", Arial, Helvetica, sans-serif;
+}
+
+.special-1 {
+  color: var(--special);
+}
+
+.btn-light {
+  display: inline-block;
+  font-size: 1rem;
+  background: var(--white);
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  color: var(--black);
+  margin: 1rem 1rem 0 0;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: 0.2s;
+}
+
+.btn-light:hover {
+  letter-spacing: 6px;
+}
+
+.btn-dark {
+  display: inline-block;
+  font-size: 1rem;
+  background: var(--white);
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  color: var(--black);
+  margin-top: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: 0.2s;
+}

@@ -1,0 +1,13 @@
+@media screen and (min-width: 1024px) {
+  .showcase {
+    padding: 10rem;
+  }
+
+  .text h2 {
+    font-size: 6rem;
+  }
+
+  .text h3 {
+    font-size: 2rem;
+  }
+}
