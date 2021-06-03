@@ -52,6 +52,9 @@ p {
   text-transform: uppercase;
   letter-spacing: 2px;
   transition: 0.2s;
+  border: none;
+  outline: none;
+  cursor: pointer;
 }
 
 .btn-light:hover {
@@ -69,6 +72,9 @@ p {
   text-transform: uppercase;
   letter-spacing: 2px;
   transition: 0.2s;
+  border: none;
+  outline: none;
+  cursor: pointer;
 }
 
 .btn-dark:hover {
