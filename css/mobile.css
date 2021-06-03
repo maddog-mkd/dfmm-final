@@ -1,12 +1,12 @@
 @media screen and (min-width: 250px) {
   /* ================================= Hamburge Menu */
   .navbar {
-    width: 300px;
+    width: 280px;
     height: 100vh;
     background-color: var(--white);
     position: fixed;
     top: 0;
-    right: -300px;
+    right: -280px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -116,26 +116,6 @@
     cursor: pointer;
   }
 
-  .toggle {
-    position: relative;
-    width: 60px;
-    height: 60px;
-    background: url("menu.png");
-    background-repeat: no-repeat;
-    background-repeat: no-repeat;
-    background-size: 30px;
-    background-position: center;
-    cursor: pointer;
-  }
-
-  .toggle.active {
-    background: url("close.png");
-    background-repeat: no-repeat;
-    background-repeat: no-repeat;
-    background-size: 25px;
-    background-position: center;
-  }
-
   .showcase video {
     position: absolute;
     top: 0;
@@ -209,5 +189,88 @@
 
   .social li a:hover {
     transform: scale(0.5) translateY(-1rem);
+  }
+
+  /* ============================================= Showcase Page */
+  .showcase-page {
+    width: 100%;
+    height: 50vh;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 0 1rem 1rem;
+  }
+
+  .showcase-page video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.8;
+  }
+
+  .showcase-page .overlay-page {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #03a9f4;
+    mix-blend-mode: overlay;
+  }
+
+  .showcase-page .showcase-content-page {
+    position: relative;
+    color: var(--white);
+  }
+
+  .showcase-page .showcase-content-page h1 {
+    font-size: 1.5rem;
+    line-height: 1;
+    text-transform: uppercase;
+  }
+
+  .showcase-page .showcase-content-page h2 {
+    font-size: 3.5rem;
+    line-height: 1;
+    text-transform: uppercase;
+  }
+
+  .showcase-page .showcase-content-page h3 {
+    letter-spacing: 2.6px;
+    line-height: 1;
+    text-transform: uppercase;
+  }
+
+  /* ========================================= About */
+  #about {
+    padding: 3rem 0;
+    background-color: var(--black);
+    color: var(--white);
+  }
+
+  /* ========================================= Why US */
+  #why-us {
+    padding: 3rem 0;
+  }
+
+  /* ========================================= CTA */
+  #cta {
+    padding: 3rem 0;
+    background-color: var(--special);
+  }
+
+  /* ======================================= Footer */
+  #footer {
+    padding: 3rem 0;
+    background-color: var(--black);
+    color: var(--white);
+    text-align: center;
+    font-size: small;
   }
 }
