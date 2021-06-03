@@ -1,7 +1,7 @@
 :root {
   --white: #fff;
-  --black: #111;
-
+  --black: #000;
+  --overlay: #1a1a1a;
   --special: yellow;
 }
 

@@ -11,4 +11,14 @@
   .text h3 {
     font-size: 2rem;
   }
+
+  /* ================================ About Page */
+  #why-us .why-us {
+    flex-direction: row;
+    align-items: stretch;
+  }
+
+  #why-us .why-us .why-us-box {
+    flex: 1;
+  }
 }
