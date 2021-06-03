@@ -290,5 +290,38 @@
   #cta {
     padding: 3rem 0;
     background-color: var(--special);
+    text-align: center;
+  }
+
+  /* =================================================== */
+  /* ================================= Serveces Page === */
+  /* =================================================== */
+  #services {
+    padding: 3rem 0;
+    background-color: var(--black);
+    color: var(--white);
+  }
+
+  #services .services {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+
+  #services .services .service-box {
+    display: block;
+    border: 1px solid var(--white);
+    margin: 1rem 0;
+    padding: 1rem;
+    color: var(--white);
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    text-align: center;
+  }
+
+  #services .services .service-box:hover {
+    letter-spacing: 6px;
   }
 }

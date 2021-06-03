@@ -21,4 +21,19 @@
   #why-us .why-us .why-us-box {
     flex: 1;
   }
+
+  /* =============================== Services Page */
+  #services .services {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+
+  #services .services .service-box {
+    width: 350px;
+    margin-right: 1rem;
+  }
 }
