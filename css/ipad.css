@@ -36,4 +36,17 @@
     width: 350px;
     margin-right: 1rem;
   }
+
+  /* ================================ Blog Page */
+  #blog .blogs-wrap {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #blog .blogs-wrap .blog-box {
+    margin-right: 2rem;
+    width: 300px;
+  }
 }
