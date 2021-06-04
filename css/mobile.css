@@ -256,6 +256,57 @@
     font-size: small;
   }
 
+  /* Locations */
+  #footer .locations {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin-bottom: 1rem;
+  }
+
+  #footer .locations li {
+    margin-right: 1rem;
+  }
+
+  #footer .locations li a {
+    color: var(--white);
+    text-decoration: none;
+    transition: 0.5s;
+  }
+
+  #footer .locations li a:hover {
+    color: var(--special);
+    text-decoration: underline;
+  }
+
+  /* Social */
+  #footer .social-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+  }
+
+  #footer .social-icons li {
+    margin-right: 1rem;
+  }
+
+  #footer .social-icons li i {
+    color: var(--special);
+  }
+
+  /* Copyright & Credits */
+  #footer .copyrights a,
+  #footer .credits a {
+    text-decoration: none;
+    color: var(--white);
+    font-weight: bold;
+  }
+
   /* =================================================== */
   /* ==================================== About Page === */
   /* =================================================== */
