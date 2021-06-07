@@ -460,4 +460,36 @@
   #blog .blogs-wrap .blog-box .thumb-text {
     padding: 1rem;
   }
+
+  /* =================================================== */
+  /* ===================================== Post Page === */
+  /* =================================================== */
+  #post {
+    padding: 3rem 0;
+    background-color: var(--black);
+    color: var(--white);
+  }
+
+  #post h1,
+  #post h2,
+  #post h3,
+  #post h4,
+  #post h5,
+  #post h6 {
+    margin: 1rem 0;
+    text-transform: uppercase;
+  }
+
+  #post p {
+    text-align: justify;
+  }
+
+  #post img {
+    max-width: 700px;
+  }
+
+  #post ul,
+  #post ol {
+    margin-left: 1rem;
+  }
 }
