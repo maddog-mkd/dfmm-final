@@ -480,10 +480,6 @@
     text-transform: uppercase;
   }
 
-  #post p {
-    text-align: justify;
-  }
-
   #post img {
     max-width: 700px;
   }
